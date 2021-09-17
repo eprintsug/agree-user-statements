@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+
+  <epp:phrase id="Plugin/Screen/User/DepositStatement:title">Deposit Agreement</epp:phrase>
+  <epp:phrase id="Plugin/Screen/User/DepositStatement:update:button">Continue</epp:phrase>
+
+<!-- New (virtual) field added to EPrint -->
+  <epp:phrase id="eprint_fieldname_deposit_statement">Deposit Agreement</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_deposit_statement">Before adding information about your thesis, you have to agree that we are allowed to store the information provided</epp:phrase>
+
+  <epp:phrase id="metapage_title_user_deposit_agreement">Deposit Agreement</epp:phrase>
+
+<!-- New fields added to users -->
+  <epp:phrase id="user_fieldname_last_login">Last logged in</epp:phrase>
+  <epp:phrase id="user_fieldhelp_last_login" />
+
+  <epp:phrase id="user_fieldname_privacy_statement">Privacy Agreement</epp:phrase>
+  <epp:phrase id="user_fieldhelp_privacy_statement">To use this system, you need to read and agree to the Privacy Agreement</epp:phrase>
+
+  <epp:phrase id="user_fieldname_deposit_statement:intro">New rules relating to how we collect and process data - the EU General Data Protection Regulation (GDPR) - came into effect in the UK on 25th May 2018.<br />
+Before adding your thesis to <epc:phrase ref="archive_name" /> you need to read and agree to the Deposit Agreement.</epp:phrase>
+  <epp:phrase id="user_fieldname_deposit_statement">Deposit Agreement</epp:phrase>
+  <epp:phrase id="user_fieldhelp_deposit_statement">Before entering details of your thesis you need to read and agree to the Deposit Agreement</epp:phrase>
+
+  <epp:phrase id="user_fieldname_agreed_statements">Data Agreements</epp:phrase>
+  <epp:phrase id="user_fieldhelp_agreed_statements">To use this system, you need to read and agree to the Privacy Agreement</epp:phrase>
+  <epp:phrase id="user_fieldname_agreed_statements_agreement">Agreement</epp:phrase>
+  <epp:phrase id="user_fieldname_agreed_statements_time">When agreement was accepted</epp:phrase>
+
+
+<!-- New fields added to requests -->
+  <epp:phrase id="request_fieldname_privacy_statement">Privacy Agreement</epp:phrase>
+  <epp:phrase id="request_fieldhelp_privacy_statement">To use this system, you need to read and agree to the Privacy Agreement</epp:phrase>
+
+<!-- user_agreements namedset -->
+  <epp:phrase id="user_agreements_typename_data_privacy_v1">Data Privacy Statement (v1)</epp:phrase>
+  <epp:phrase id="user_agreements_typename_data_privacy_v1:full_statement">
+    <p><strong>THIS IS AN EXAMPLE USER DATA PRIVACY STATEMENT. Please edit with your policies!</strong></p>
+    <h2>Data Privacy Statement (May 2018; v1)</h2>
+    <p>In creating this account you agree to the personal data you supply being stored in the United Kingdom 
+and maintained by <epc:phrase ref="archive_name" />, through University of Leeds IT Service, on behalf of White Rose Libraries 
+and the Universities of Leeds, Sheffield and York. This data may be accessed by colleagues from across 
+these three institutions if necessary e.g. to offer support or resolve an issue. The data, including your 
+institutional affiliation, will also be used to better understand the use and effectiveness of the 
+service and identify areas for improvement. Individuals will not be identifiable from any generated 
+outputs. These uses come under the following lawful basis under the General Data Protection Regulation 
+(GDPR) 2018:</p>
+
+    <blockquote><p> 6 (1) (e) - Processing is necessary for the performance of a task carried out in the 
+public interest or in the exercise of official authority vested in the controller.</p></blockquote>
+
+    <p>Should you use your account to deposit your thesis/your research we will retain your personal data 
+for the duration of our curation of this thesis/content.</p>
+
+    <p>Should you not use your account to deposit content, the account will remain live for 12 months from 
+last recorded activity. After this period, the account, along with any personal data it contains, will 
+be deleted.</p>
+
+    <p>The Universities recognise the importance of personal privacy and ensure that all personal data is 
+held in accordance with the General Data Protection Regulation (GDPR) 2018. Compliance is managed by 
+Data Protection colleagues across the sites, and the Data Controller for White Rose operations is the 
+University of York, on behalf of the Universities of Leeds, Sheffield and York. </p>
+
+    <p>Under the General Data Protection Regulation, you have a right of access to your data, a right to 
+rectification, erasure (in certain circumstances), restriction, objection or portability (in certain 
+circumstances). You also have a right to withdraw consent. If you would like to exercise these rights, 
+or if you have any concerns or questions relating to Data Protection, please contact:</p>
+
+    <p>*** ADD YOUR GDPR CONTACT DETAILS IN HERE!</p>
+
+    <p>If you are unhappy with the way in which the University of York has handled your personal information 
+you have the right to complain to the Information Commissioner’s Office. For information on reporting a 
+concern to the Information Commissioner’s Office, see <a href="http://www.ico.org.uk/concerns" target="_blank">www.ico.org.uk/concerns</a>.</p>
+
+    <p>If you consent to your data being used and stored in this way, please tick the box to confirm, 
+and continue creating your account.</p>
+  </epp:phrase>
+
+<!--  
+  <epp:phrase id="user_agreements_typename_data_privacy_v2">Data Privacy Statement (v2)</epp:phrase>
+  <epp:phrase id="user_agreements_typename_data_privacy_v2:full_statement">The full DP v2 statement</epp:phrase>
+-->
+
+  <epp:phrase id="user_agreements_typename_deposit_v1">Deposit Agreement (v1)</epp:phrase>
+  <epp:phrase id="user_agreements_typename_deposit_v1:full_statement">
+    <p><strong>THIS IS AN EXAMPLE DEPOSIT PRIVACY STATEMENT. Please edit with your policies!</strong></p>
+    <h2>Deposit Statement (May 2018; v1)</h2>
+
+    <p>In using this account to deposit your thesis, you agree to the personal data you supply being 
+stored in the United Kingdom and maintained by <epc:phrase ref="archive_name" />, through University
+of Leeds IT Service, on behalf of White Rose Libraries and the Universities of Leeds, Sheffield and York.
+This data may be accessed by colleagues from across these three institutions if necessary e.g. to offer 
+support or resolve an issue. The data, including your institutional affiliation, will also be used to 
+better understand the use and effectiveness of the service and identify areas for improvement. 
+Individuals will not be identifiable from any generated outputs. These uses come under the following 
+lawful basis under the General Data Protection Regulation (GDPR) 2018:</p>
+
+    <blockquote><p>6 (1) (e) - Processing is necessary for the performance of a task carried out in the 
+public interest or in the exercise of official authority vested in the controller.</p></blockquote>
+
+    <p>The data will be retained for the duration of our curation of your thesis.</p>
+
+    <p>Depositing your thesis with <epc:phrase ref="archive_name" /> adds it to a national - and 
+international - network of open access online databases which promote access to research outputs so that 
+they can be found, read, cited and built upon. Theses available in <epc:phrase ref="archive_name" /> will 
+be available to all. Potential readers will be able to find your thesis through an ordinary search engine 
+such as Google but also through other specialist, academic search engines, maximising the impact and 
+profile of your research.</p>
+
+    <p>Some of the data you share will be used to create the record page for your thesis, in accordance
+with any limitations you set as part of the deposit process. This will not include your email address or 
+any direct contact details. Staff from White Rose Libraries, Leeds IT Service, and the Universities of 
+Leeds, Sheffield and York may use these details to contact you about your thesis. If your thesis is 
+embargoed, requests for access during the embargo period will be sent to the email address you supply as 
+the &quot;contact email&quot; for the thesis. White Rose Libraries will not share your contact details 
+with the requestor.</p>
+
+    <p>The Universities recognise the importance of personal privacy and ensure that all personal data 
+is held in accordance with the General Data Protection Regulation (GDPR) 2018. Compliance is managed by 
+Data Protection colleagues across the sites, and the Data Controller for White Rose Libraries operations 
+is the University of York, on behalf of the Universities of Leeds, Sheffield and York.</p>
+
+    <p>Under the General Data Protection Regulation, you have a right of access to your data, a right to 
+rectification, erasure (in certain circumstances), restriction, objection or portability (in certain 
+circumstances). You also have a right to withdraw consent. If you would like to exercise these rights, 
+or if you have any concerns or questions relating to Data Protection, please contact:</p>
+
+    <p>*** ADD YOUR GDPR CONTACT DETAILS IN HERE!</p>
+ 
+    <p>If you are unhappy with the way in which the University of York has handled your personal information 
+you have the right to complain to the Information Commissioner’s Office. For information on reporting a 
+concern to the Information Commissioner’s Office, see 
+<a href="http://www.ico.org.uk/concerns" target="_blank">www.ico.org.uk/concerns</a>.</p>
+
+    <p>If you consent to your data being used and stored in this way, please tick the box to confirm, and 
+continue depositing your thesis.</p>
+
+    <p>Please note that the responsibility for gathering appropriate permissions relating to any personal 
+data held within your thesis, including relating to deposit in this repository, lie with you as the 
+researcher. You must ensure any such permissions are in place to the satisfaction of your University 
+before depositing your thesis.</p>
+  </epp:phrase>
+
+  <epp:phrase id="user_agreements_typename_request_privacy_v1">'Request a Copy' Privacy Statement (v1)</epp:phrase>
+  <epp:phrase id="user_agreements_typename_request_privacy_v1:full_statement">
+    <p><strong>THIS IS AN EXAMPLE REQUEST PRIVACY STATEMENT. Please edit with your policies!</strong></p>
+    <h1>'Request a Copy' Privacy Statement (May 2020; v1)</h1>
+    <p>As this content is currently not publically available you need to request access, either from the author or 
+      other specified contact with the authority to grant access to this item.</p>
+
+    <h2>How do we use your data and who do we share it with?</h2>
+    <p>To allow them to consider your access request fully, we need to provide the author or other specified contact 
+      with your details, including the reason you are requesting access and your contact details to enable them to respond.</p>
+    <p>Your data may be also be accessed by colleagues from White Rose Libraries and the Universities of Leeds, Sheffield 
+      and York if necessary e.g. to offer support or resolve an issue.</p>
+    <p>The data will also be used to better understand the use and effectiveness of the service and identify areas for 
+      improvement. Individuals will not be identifiable from any generated outputs.</p>
+
+    <h2>How long will we keep your data?</h2>
+    <p><epc:phrase ref="archive_name" /> will retain the details you submit in your request as part of our records 
+      concerning the restricted content we curate. We will retain this data until the requested item is made publicly 
+      available, or for 12 months (whichever is the longer period).</p>
+
+    <h2>How do we store your data?</h2>
+    <p>This data will be stored in the United Kingdom and maintained by <epc:phrase ref="archive_name" /></p> 
+
+    <p>In placing this request you understand that:</p>
+    <ol>
+      <li>the personal data you supply will be passed to the author or specified contact for this content to enable them to 
+        consider and respond to your request</li>
+      <li>the personal data you supply will be stored and maintained by <epc:phrase ref="archive_name" /> as described above.</li>
+    </ol>
+
+    <h2>What is our legal basis for processing your data?</h2>
+    <p>Data gathered as part of the 'Request a Copy' service will be processed under article 6 (1) (b) of the GDPR, i.e. to allow 
+      us to perform a contract with you or take steps at your request, to enter into a contract.</p>
+
+    <p>The Universities recognise the importance of personal privacy and ensure that all personal data is held in accordance with 
+      the General Data Protection Regulation (GDPR) 2018. Compliance is managed by Data Protection colleagues across the sites, 
+      and the Data Controller for White Rose operations is the University of York, on behalf of the Universities of Leeds, 
+      Sheffield and York.</p>
+
+    <h2>What rights do you have in relation to your data?</h2>
+    <p>Under the General Data Protection Regulation, you have a right of access to your data, a right to rectification, erasure 
+      (in certain circumstances), restriction, objection or portability (in certain circumstances). You also have a right to 
+      withdraw consent.</p>
+
+    <h2>Questions or Concerns</h2>
+    <p>If you would like to exercise the above rights, or if you have any concerns or questions relating to Data Protection, please contact:<br />
+      *** ADD YOUR GDPR CONTACT DETAILS IN HERE!</p>
+
+    <h2>Right to complain</h2>
+    <p>If you are unhappy with the way in which the University of York has handled your personal information you have the right to complain
+      to the Information Commissioner’s Office. For information on reporting a concern to the Information Commissioner’s Office, see www.ico.org.uk/concerns.</p>
+
+    <p>If you consent to your data being used and stored in this way, please tick the box to confirm, then complete and submit your request.</p>
+  </epp:phrase>
+
+  <epp:phrase id="agree_to_statement">I have read and agree to the <epc:pin name="user_agreement" /></epp:phrase>
+  <epp:phrase id="agreed_statements_render_li"><epc:pin name="user_agreement" /> (agreed at: <epc:pin name="time" />).</epp:phrase>
+
+  <epp:phrase id="user_fieldname_agreed_privacy_statement">Privacy Agreement</epp:phrase>
+
+  <epp:phrase id="Plugin/InputForm/Component/Field/AgreeToStatement:open_modal">View</epp:phrase>
+  <epp:phrase id="Plugin/InputForm/Component/Field/AgreeToStatement:close_modal">Close</epp:phrase>
+  <!-- <epp:phrase id="Plugin/InputForm/Component/Field/AgreeToStatement:intro"><p>GDPR registration statement intro</p></epp:phrase>-->
+  <epp:phrase id="Plugin/InputForm/Component/Field/AgreeToStatement:style"><style>
+.agree-statement-title { font-size: 1.4em; font-weight:bold; }
+.agree-statement-intro {}
+.agree-statement-field {}
+.agree-statement-input {}
+.agree-statement-input.disabled { color: grey;}
+
+.ep_form_action_button:disabled,
+{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+button[disabled]:active, button[disabled],
+input[type="button"][disabled]:active,
+input[type="button"][disabled],
+input[type="submit"][disabled]:active,
+input[type="submit"][disabled] ,
+button[disabled]:hover,
+input[type="button"][disabled]:hover,
+input[type="submit"][disabled]:hover
+{
+  border: 2px outset ButtonFace;
+  color: GrayText;
+  cursor: inherit;
+  background-color: #ddd;
+  background: #ddd;
+}
+.jqmodal {
+  top: 50px;
+  max-width: 1000px;
+}
+.jqmodal blockquote {
+  font-size: inherit;
+}
+
+</style></epp:phrase>
+
+</epp:phrases>
